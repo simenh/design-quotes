@@ -1,0 +1,76 @@
+body {
+  background-color: #E4287C;
+  margin: 1%;
+  font-family: Garamond;
+}
+
+h1 {
+  color: white;
+  font-family: Futura;
+  font-weight: 500;
+  margin-bottom: 10%;
+}
+
+.box {
+  width: 40%;
+  height: 30%;
+  padding: 1% 3%;
+  background-color: white;
+  border: 1px #E45E9D solid;
+  color: black;
+  border-radius: 10px;
+}
+
+.quote-detail {
+  color: #E4287C;
+  opacity: 0.5;
+  font-weight: 700;
+  float: left;
+  margin-right: 10px;
+}
+
+#quote-content {
+  font-size: 1.5em;
+  margin-left: 5%;
+}
+
+#quote-person {
+  text-align: right;
+  margin: 4%;
+}
+
+.buttons {
+  vertical-align: middle;
+  margin: 2px 4% 0 4%;
+}
+
+#get-quote {
+  color: #FFF;
+  background-color: #E4287C;
+  border: 1px solid #E45E9D;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: Futura;
+  padding: 0.5% 1%;
+  cursor: pointer;
+  outline: none;
+  vertical-align: middle;
+}
+
+#get-quote:hover {
+  opacity: 0.8;
+  border: 1px solid #E4287C;
+}
+
+a {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  height: 32px;
+  color: #E4287C;
+  float: right;
+}
+
+a:hover {
+  color: #C12267;
+}
